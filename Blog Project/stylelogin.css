@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -17,10 +18,8 @@
 .navigation_bar {
     width: 100%;
     height: 15vh;
-    margin: right;
     display: flex;
     align-items: center;
-    margin-left: 20%;
 }
 
 .logo {
@@ -29,17 +28,16 @@
 }
 
 .navigation_bar ul li {
+    font-family: 'Ubuntu', sans-serif;
     font-size: x-large;
     display: inline-block;
     list-style: none;
-    margin: 0px 20px;
+    margin: 0px 30px;
 }
 
 .navigation_bar ul li a {
     text-decoration: none;
     font-size: 30px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
     color: bisque;
 
 }
@@ -48,8 +46,8 @@
 }
 
 .content h1 {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0); */
     text-decoration: none;
     font-size: 60px;
     font-weight: 100;
@@ -86,8 +84,8 @@
     padding-right: 5%;
     box-sizing: border-box;
 
-
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: "Comic Sans MS", cursive, sans-serif; */
     margin-top: -35%;
     margin-left: 60%;
     align-items: center;
@@ -96,9 +94,9 @@
 }
 
 .header {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    color: #6d2d6f;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0); */
+    color: #411c42;
 }
 
 .input_username {
@@ -112,8 +110,8 @@
 
 .label_username {
 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0); */
     color: #a332a7;
 }
 
@@ -128,8 +126,6 @@
 
 .label_age {
 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
     color: #a332a7;
 }
 
@@ -144,8 +140,6 @@
 
 .label_server {
 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
     color: #a332a7;
 }
 
@@ -160,8 +154,6 @@
 
 .label_password {
 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
     color: #a332a7;
 }
 
